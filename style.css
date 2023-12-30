@@ -12,6 +12,17 @@ header{
     justify-content: center;
     height: 1/4;
 }
+
+.blueHF{
+    color: blue;
+}
+.redHF{
+    color: red;
+}
+.yellowHF{
+    color: yellow;
+}
+
 .blue{
     color: blue;
 }
@@ -51,19 +62,55 @@ ul{
 li{
     cursor: pointer;
     transition: 0.3s;
+    font-weight: bold;
 }
 li:hover{
     scale: 1.2;
 }
 main{
-    font-weight: bold;
     background-color:darkgrey;
     height: 520px;
     align-items: center;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+#title2{
+    font-weight: bold;
     font-size: 90px;
 }
+
+.config{
+    width: 80px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 0px 15px;
+    cursor: pointer;
+}
+
+#op1{
+    background-color: blue;
+}
+#op1:hover{
+    background-color: rgb(0, 0, 209);
+}
+#op2{
+    background-color: red;
+}
+#op2:hover{
+    background-color: rgb(192, 0, 0);
+}
+#op3{
+    background-color: rgba(209, 209, 0, 0.945);
+}
+#op3:hover{
+    background-color: rgb(196, 177, 6);
+}
+
 footer{
     background-color: maroon;
     height: 90px;
